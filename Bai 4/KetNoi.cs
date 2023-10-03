@@ -41,5 +41,6 @@ namespace Bai_4
             finally { conn.Close(); }
             return r > 0;
         }
+        public DataTable ExecuteQuery(){}
     }
 }
